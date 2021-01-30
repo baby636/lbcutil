@@ -1,12 +1,12 @@
-btcutil
+lbcutil
 =======
 
-[![Build Status](http://img.shields.io/travis/btcsuite/btcutil.svg)](https://travis-ci.org/btcsuite/btcutil)
-[![Coverage Status](http://img.shields.io/coveralls/btcsuite/btcutil.svg)](https://coveralls.io/r/btcsuite/btcutil?branch=master)
+[![Build Status](http://img.shields.io/travis/btcsuite/lbcutil.svg)](https://travis-ci.org/btcsuite/lbcutil)
+[![Coverage Status](http://img.shields.io/coveralls/btcsuite/lbcutil.svg)](https://coveralls.io/r/btcsuite/lbcutil?branch=master)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/btcsuite/btcutil)
+[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/lbryio/lbcutil)
 
-Package btcutil provides bitcoin-specific convenience functions and types.
+Package lbcutil provides bitcoin-specific convenience functions and types.
 A comprehensive suite of tests is provided to ensure proper functionality.  See
 `test_coverage.txt` for the gocov coverage report.  Alternatively, if you are
 running a POSIX OS, you can run the `cov_report.sh` script for a real-time
@@ -21,7 +21,7 @@ provided.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/btcsuite/btcutil
+$ go get -u github.com/lbryio/lbcutil
 ```
 
 ## GPG Verification Key
@@ -46,5 +46,5 @@ verify the signature perform the following:
 
 ## License
 
-Package btcutil is licensed under the [copyfree](http://copyfree.org) ISC
+Package lbcutil is licensed under the [copyfree](http://copyfree.org) ISC
 License.
